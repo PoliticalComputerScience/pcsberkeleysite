@@ -1,43 +1,71 @@
 // Leadership section
-// 8vw of padding for width on mobile
 
 .about-leadership {
-  padding: 2.75rem 8vw 3rem;
-  margin: 0 auto;
+  background-color: #ffffff;
 
-  h2 {
-    font-size: 2.25rem;
-    font-weight: bold;
-  }
+  .about-leadership-container {
+    margin: 0 auto;
+    padding: 3rem 0 1rem;
 
-  @media screen and (orientation: landscape) {
-    h2 {
-      font-size: 2.5rem;
+    .about-leadership-beginning {
+      padding-left: 8vw;
+      padding-right: 8vw;
+      margin-bottom: 2rem;
+
+      h2 {
+        font-size: 2.5rem;
+        font-weight: bold;
+      }
+    }
+
+    .about-roles-container {
+      padding: 0 6.25vw;
     }
   }
 
   // 700px/43.75rem and above (Vertical tablets and large horizontal phones)
   // 10vw of padding for width on large horizontal phones and tablets
   @media screen and (min-width: 43.75rem) {
-    padding: 2.75rem 10vw 3rem;
+    margin: 0 auto 3rem;
 
-    h2 {
-      font-size: 2.5rem;
-    }
+    .about-leadership-container {
+      .about-leadership-beginning {
+        padding-left: 6.25vw;
+        padding-right: 6.25vw;
 
-    // Padding for landscape iPhones with notch
-    @supports (padding: max(0px)) {
-      @media screen and (orientation: landscape) {
-        padding-left: max(10vw, calc(env(safe-area-inset-left) + 10vw));
-        padding-right: max(10vw, calc(env(safe-area-inset-right) + 10vw));
+        max-width: 52rem;
+        margin: 0 auto 4rem;
+        text-align: center;
+
+        h2 {
+          font-size: 3rem;
+        }
+      }
+
+      .about-roles-container {
+        padding: 0;
       }
     }
   }
 
   // 1024px (horizontal tablets)
-  // Switch to max-width instead of using padding
   @media screen and (min-width: 64rem) {
-    padding: 2.75rem 0 3rem;
-    max-width: 48rem;
+    .about-leadership-container {
+      .about-leadership-beginning {
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
+  }
+
+  // 1366px (medium laptops)
+  // Increase margin on top and set max width for all larger resolutions
+  @media screen and (min-width: 85.375rem) {
+    margin: 0 auto;
+
+    .about-leadership-container {
+      padding: 3rem 0 1rem;
+      max-width: var(--large-screen-max-width);
+    }
   }
 }
