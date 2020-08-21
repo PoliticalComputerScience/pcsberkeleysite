@@ -1,19 +1,19 @@
 // @flow
 import React from 'react';
 import './Description.scss';
-import image from 'assets/home/linkedin.jpg';
+import image from 'assets/home/group_photo.jpg';
 
 const Description = (props) => {
   return (
     <section className="Description">
       <div className="description-top">
-        <h2 className="description-heading">Reach New Heights</h2>
+        <h2 className="description-heading">Introducing PCS@Berkeley</h2>
         <OpeningParagraph width={props.width} />
         <div className="description-image-container">
           <img
             className="description-image"
             src={image}
-            alt="Club members visiting LinkedIn during a club company visit."
+            alt="Group photo of PCS@Berkeley club members."
           />
         </div>
         {/* eslint-disable-next-line */}
@@ -24,20 +24,19 @@ const Description = (props) => {
       </div>
       <div className="description-main">
         <p>
-          The Computer Science Club offers a multitude of fun, exciting, and
-          beginner-friendly events designed to enrich and grow your
-          understanding of in-demand skills, a community of like-minded students
-          and alumni ready to tackle anything that comes their way, and plenty
-          of opportunities for members to network and collaborate on projects
-          and hackathons.
+          Our members study a variety of academic backgrounds, including
+          computer science, economics, data science, political science,
+          legal studies, political economy, and more. They all have one thing
+          in common––a drive to use their abilities to address real and
+          current issues. Our club’s diversity of background, thought, and
+          political opinion allows us to develop well-rounded, nonpartisan
+          softwares, applications, and tools that are meaningful and easy to use.
         </p>
 
         <p>
-          Whether you&apos;re looking to jumpstart your career in Software
-          Engineering, Data Science, Cybersecurity, UX/UI Design, and many other
-          related fields, or just want to drop by to chill and make some new
-          friends, there&apos;s something for everyone here at the Brooklyn
-          College Computer Science Club.
+          Political Computer Science offers UC Berkeley students a community
+          of driven, innovative programmers who are passionate about politics
+          and activism.
         </p>
       </div>
     </section>
@@ -48,17 +47,21 @@ const OpeningParagraph = ({ width }) => {
   if (width < 700) {
     return (
       <p className="description-opening-paragraph">
-        The Brooklyn College Computer Science Club is a community that enables
-        students interested in technology to learn and grow together.
+        We are a nonpartisan student organization that harnesses
+         students’ intellectual curiosity and capabilities in technology
+         and government affairs to address current issues within legal and
+         political systems.
       </p>
     );
   } else {
     return (
       // eslint-disable-next-line
       <p className="description-opening-paragraph" role="text">
-        The Brooklyn College Computer Science Club is a community that
+      We are a nonpartisan student organization that harnesses
+       students’ intellectual curiosity and
         <br />
-        enables students interested in technology to learn and grow together.
+          capabilities in technology and government affairs to address
+         current issues within legal and political systems.
       </p>
     );
   }
@@ -69,17 +72,20 @@ const MissionContent = ({ width }) => {
   if (width < 720) {
     return (
       <p className="MissionContent">
-        To help students interested in technology to meet other
-        like&#8209;minded students and to help advance their careers.
+         To develop politically centered tech projects and to
+         promote the use of technological skills for political advocacy,
+         political education, and social good.
       </p>
     );
   } else {
     return (
       // eslint-disable-next-line
       <p className="MissionContent" role="text">
-        To help students interested in technology to meet other
+        To develop politically centered tech projects and to
         <br />
-        like&#8209;minded students and to help advance their careers.
+        promote the use of technological skills for political
+        <br />
+        advocacy, political education, and social good.
       </p>
     );
   }

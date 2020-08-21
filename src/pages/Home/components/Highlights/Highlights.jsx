@@ -5,7 +5,7 @@ import './Highlights.scss';
 
 import learn from 'assets/home/highlights/learn.jpg';
 import collaborate from 'assets/home/highlights/collaborate.jpg';
-import network from 'assets/home/highlights/network.jpg';
+import connect from 'assets/home/highlights/connect.jpg';
 
 const descriptions = [
   // Learn
@@ -62,12 +62,12 @@ const Highlights = () => {
 
       {/* Connect */}
       <Highlight
-        containerClass="highlight-network"
+        containerClass="highlight-connect"
         title="Connect."
         description={descriptions[2]}
         linkUrl="/join"
         linkText="Join The Community"
-        image={network}
+        image={connect}
         imageAlt="Connect"
         backgroundColor="#EFF9DA"
       />
