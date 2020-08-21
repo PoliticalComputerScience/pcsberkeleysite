@@ -19,8 +19,7 @@ const EndingText = ({ width }) => {
     // Vertical phones
     return (
       <h2>
-        Unlock your full potential at the Brooklyn College Computer Science
-        Club.
+        Ready to use tech for political good?
       </h2>
     );
   } else {
@@ -28,9 +27,7 @@ const EndingText = ({ width }) => {
     return (
       // eslint-disable-next-line
       <h2 role="text">
-        Unlock your full potential at the
-        <br />
-        Brooklyn College Computer Science Club.
+        Ready to use tech for political good?
       </h2>
     );
   }
