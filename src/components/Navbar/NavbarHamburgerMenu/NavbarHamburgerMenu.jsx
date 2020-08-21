@@ -21,9 +21,9 @@ const NavbarHamburgerMenu = () => {
           <div className="nav-mobile-logo-and-close-menu">
             <div className="nav-mobile-logo">
               <Link to="/" onClick={context.toggleMenu}>
-                <img src={logo} alt="Brooklyn College Computer Science Club" />
+                <img src={logo} alt="Political Computer Science @ Berkeley" />
                 <p>
-                  Brooklyn College <br /> Computer Science Club
+                  Political Computer <br /> Science @ Berkeley
                 </p>
               </Link>
             </div>

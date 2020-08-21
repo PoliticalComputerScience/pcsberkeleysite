@@ -16,7 +16,7 @@ const Navigation = () => {
             <img src={logo} alt="Logo" />
             {/* eslint-disable-next-line */}
             <p role="text">
-              Brooklyn College <br /> Computer Science Club
+              Political Computer <br /> Science @ Berkeley
             </p>
           </Link>
         </div>
@@ -39,7 +39,7 @@ const Navigation = () => {
             <li>
               {/* Temporary email contact until contact page is ready */}
               {/* <Link to="/contact">Contact</Link> */}
-              <a href="mailto:contact@bccompsci.club">Contact</a>
+              <a href="mailto:pcs.berkeley@gmail.com">Contact</a>
             </li>
 
             <li className="join-button">

@@ -29,25 +29,19 @@ const FooterContents = () => {
     // < 700px (Vertical phones and small horizontal phones)
     return (
       <div className="footer-container">
-        <p>© 2020 Brooklyn College Computer Science Club</p>
-        <p>0317 Ingersoll Hall, Brooklyn College</p>
-        <p>
-          <a href="mailto:contact@bccompsci.club">
-            Email: contact@bccompsci.club
-          </a>
-        </p>
+        <p>© Political Computer Science @ Berkeley</p>
+        <p>We are a student group acting independently of the University of California.
+        We take full responsibility for our organization and this website.</p>
       </div>
     );
   } else {
     // > 700px (Desktops, laptops, tablets, and large horizontal phones)
     return (
       <div className="footer-container">
-        <p>© 2020 Brooklyn College Computer Science Club</p>
+        <p>© Political Computer Science @ Berkeley</p>
         <p>
-          0317 Ingersoll Hall, Brooklyn College •{' '}
-          <a href="mailto:contact@bccompsci.club">
-            Email: contact@bccompsci.club
-          </a>
+          We are a student group acting independently of the University of California.
+          We take full responsibility for our organization and this website.
         </p>
       </div>
     );

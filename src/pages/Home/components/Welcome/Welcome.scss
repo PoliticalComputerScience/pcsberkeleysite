@@ -73,35 +73,35 @@ section.Welcome {
         a.join-button {
           color: #fff;
           font-weight: bold;
-          background-color: #4d5eff;
+          background-color: #693699;
           border-radius: 50px;
         }
 
         a.join-button:hover {
-          background-color: #5767fe;
+          background-color: #693699;
           box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
         }
 
         a.join-button:active {
-          background-color: #6574f7;
+          background-color: #7C40A9;
           box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
         }
 
         a.learn-more {
           cursor: pointer;
           margin-top: 1rem;
-          box-shadow: 0 0 0 2px #4d5eff inset;
-          color: #4d5eff;
+          box-shadow: 0 0 0 2px #693699 inset;
+          color: #693699;
           border-radius: 50px;
           background-color: initial;
         }
 
         a.learn-more:hover {
-          box-shadow: 0 0 0 3px #4d5eff inset;
+          box-shadow: 0 0 0 3px #7C40A9 inset;
         }
 
         a.learn-more:active {
-          box-shadow: 0 0 0 2px #4d5eff inset;
+          box-shadow: 0 0 0 2px #7C40A9 inset;
         }
       }
     }

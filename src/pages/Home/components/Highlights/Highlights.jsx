@@ -9,22 +9,28 @@ import network from 'assets/home/highlights/network.jpg';
 
 const descriptions = [
   // Learn
-  `Whether you’ve never even seen a line of code before or you’ve written
-  full-stack applications that scale, we’ve got you covered. With tech
-  talks, workshops, challenges, and more, there’s plenty of ways to gain
-  new skills and level up your career. Our exciting events, ranging from
-  beginner to advanced, will get you up and running with your first
-  website or how to deploy and auto-scale your application on the cloud.`,
+  `Learn something new about political science or tech at our workshops.
+  Whether you haven’t written a single line of code or you’ve developed
+  your own application, we have academic and professional development
+  workshops for you. Through hands-on coding workshops or talks from industry
+   professionals, there are plenty of ways to gain knowledge and new skills.
+   Our exciting events are open to all PCS members, and select workshops and
+   educational events are open to all UC Berkeley students.`,
 
   // Collaborate
-  `Teamwork makes the dream work! Find team members to work on a project
-  with, form your winning hackathon team, or practice mock interviewing
-  and whiteboarding with others and score your dream job.`,
+  `Work on one of our project teams with other members to complete a
+  political-related technical project by the end of each semester. You’ll be
+   able to learn alongside your peers, receiving guidance and mentorship from
+   your project manager. As a new member, you’ll also work with other new
+   members to complete a PolitiCS mini-project on any political topic of your
+   choosing.`,
 
-  // Network
-  `The Computer Science Club is built upon the foundations of diversity and
-  inclusivity. Connect with people from all walks of life and grow your
-  network with some of the brightest people in the industry.`,
+  // Connect
+  `Join us at Super Smash Bros tournaments, karaoke nights, debate watch
+  parties, and more! We host many social events throughout the semester so our
+  members can get to know each other on a more personal level outside of
+  project meetings. We encourage you to meet new people and make new friends
+  at PCS.`,
 ];
 
 const Highlights = () => {
@@ -33,37 +39,37 @@ const Highlights = () => {
       {/* Learn */}
       <Highlight
         containerClass="highlight-learn"
-        title="Learn"
+        title="Learn."
         description={descriptions[0]}
         linkUrl="/events"
         linkText="Browse Events"
         image={learn}
         imageAlt="Learn"
-        backgroundColor="#FFF9EE"
+        backgroundColor="#CBE4F9"
       />
 
       {/* Collaborate */}
       <Highlight
         containerClass="highlight-collaborate"
-        title="Collaborate"
+        title="Collaborate."
         description={descriptions[1]}
         linkUrl="/about"
         linkText="See What We Do"
         image={collaborate}
         imageAlt="Collaborate"
-        backgroundColor="#EEFFF0"
+        backgroundColor="#F9D8D6"
       />
 
-      {/* Network */}
+      {/* Connect */}
       <Highlight
         containerClass="highlight-network"
-        title="Network"
+        title="Connect."
         description={descriptions[2]}
         linkUrl="/join"
         linkText="Join The Community"
         image={network}
-        imageAlt="Network"
-        backgroundColor="#EEF7FF"
+        imageAlt="Connect"
+        backgroundColor="#EFF9DA"
       />
     </section>
   );

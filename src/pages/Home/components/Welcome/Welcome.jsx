@@ -13,10 +13,9 @@ const Welcome = (props) => {
           <div className="welcome-content">
             <Slogan width={props.width} />
             <p className="welcome-description">
-              Learn something new at an event, form a team to build a project
-              with, or find out more about the field! The Brooklyn College
-              Computer Science Club welcomes you, regardless of your programming
-              experience or major.
+              Political Computer Science @ Berkeley is a UC Berkeley student organization
+              that celebrates the intersection of politics and computing. We empower our
+              members to champion political advocacy through tech.
             </p>
             <div className="welcome-action-buttons">
               <Link className="join-button" to="/join">
@@ -111,12 +110,12 @@ const TypewriterWelcome = () => {
 
   // Strings for the typewriter effect to cycle through
   const strings = [
-    'inspiration.',
+    'advocacy.',
     'collaboration.',
     'diversity.',
-    'passion.',
-    'creativity.',
-    'learning.',
+    'dedication.',
+    'innovation.',
+    'growth.',
   ];
 
   const typewriterInit = (typewriter) => {
