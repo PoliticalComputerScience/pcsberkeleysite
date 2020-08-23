@@ -1,0 +1,69 @@
+.cb-wrapper-gray {
+  width: 100%;
+  background-color: #f6f7f8;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.cb-club-structure-header {
+  max-width: 650px;
+}
+
+.cb-club-structure-card-title {
+  font-family: "Inter-SemiBold";
+  font-size: 14px;
+  color: #ffffff;
+  margin-bottom: 28px;
+}
+
+.cb-club-structure-card-text {
+  color: #ffffff;
+}
+.cb-draggable-row-card {
+  cursor: grab;
+}
+
+.ebru-container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  overflow-x: auto;
+
+}
+
+.cb-draggable-row-container {
+  width: 100%;
+  height: 350px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  overflow-x: auto !important;
+}
+
+
+@media only screen and (max-width: 479px) {
+  .cb-draggable-row-card {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  .cb-draggable-row-card {
+    max-width: 250px !important;
+    min-width: 250px !important;
+    margin-right: 20px;
+  }
+
+  .cb-draggable-row-hidden {
+    min-width: 25px;
+  }
+
+  .cb-draggable-row-row {
+    height: 300px;
+    flex-wrap: nowrap !important;
+  }
+}

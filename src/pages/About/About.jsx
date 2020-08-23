@@ -3,6 +3,7 @@ import Top from './components/Top';
 import WhoWeAre from './components/WhoWeAre';
 import WhatWeDo from './components/WhatWeDo';
 import Leadership from './components/Leadership';
+import ClubStructure from './components/ClubStructure';
 import Ending from '../../components/Ending';
 import './About.scss';
 
@@ -27,7 +28,7 @@ const About = () => {
         <Top />
         <WhoWeAre />
         <WhatWeDo />
-        <Leadership />
+        <ClubStructure />
         {/* TODO: Add Meet the Team section */}
         <Ending width={width} />
       </article>

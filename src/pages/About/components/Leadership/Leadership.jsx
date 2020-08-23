@@ -1,8 +1,15 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './Leadership.scss';
 import Card from 'react-bootstrap/Card'
 import CardDeck from 'react-bootstrap/CardDeck'
 import CardGroup from 'react-bootstrap/CardGroup'
+import CardColumns from 'react-bootstrap/CardColumns'
+import HorizontalScroller from 'react-horizontal-scroll-container';
+import ScrollContainer from 'react-indiana-drag-scroll';
+import Container from "react-bootstrap/Container"
+import Row from "react-bootstrap/Row"
+import Col from "react-bootstrap/Col"
+
 
 const Leadership = () => {
   return (
@@ -20,37 +27,30 @@ const Leadership = () => {
         </div>
         <div className="about-roles-container">
         <p>Coming soon...</p>
-        </div>
-        <CardDeck>
-  <Card>
-    <Card.Img variant="top" src="holder.js/100px160" />
-    <Card.Body>
-      <Card.Title>Card title</Card.Title>
-      <Card.Text>
-        This is a wider card with supporting text below as a natural lead-in to
-        additional content. This content is a little bit longer.
-      </Card.Text>
-    </Card.Body>
-    <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
-    </Card.Footer>
-  </Card>
-  <Card>
-    <Card.Img variant="top" src="holder.js/100px160" />
-    <Card.Body>
-      <Card.Title>Card title</Card.Title>
-      <Card.Text>
-        This card has supporting text below as a natural lead-in to additional
-        content.{' '}
-      </Card.Text>
-    </Card.Body>
-    <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
-    </Card.Footer>
-  </Card>
-
-</CardDeck>
       </div>
+      <ScrollContainer className='cb-draggable-row-container'>
+        <Container>
+          <Row noGutters className='cb-draggable-row-row'>
+            <div className='cb-card cb-draggable-row-card'>
+              <div className='cb-card-body'>
+                <h2 className='cb-club-structure-card-title'>Test1</h2>
+                <p className='cb-club-structure-card-text'>Text1</p>
+              </div>
+            </div>
+            <div className='cb-card cb-draggable-row-card'>
+              <div className='cb-card-body'>
+                <h2 className='cb-club-structure-card-title'>Test2</h2>
+                <p className='cb-club-structure-card-text'>Text2</p>
+              </div>
+            </div>
+            <div className="cb-draggable-row-hidden"></div>
+          </Row>
+        </Container>
+      </ScrollContainer>
+    </div>
+
+
+
     </section>
   );
 };

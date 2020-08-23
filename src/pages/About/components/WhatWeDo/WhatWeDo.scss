@@ -64,8 +64,10 @@
     margin: 0 auto;
 
     .about-what-we-do-container {
-      padding: 3rem 0 1rem;
-      max-width: var(--large-screen-max-width);
+      // padding: 3rem 0 1rem;
+      padding-left: 50px;
+      padding-right: 50px;
+      // max-width: var(--large-screen-max-width);
     }
   }
 }
