@@ -28,6 +28,7 @@ const About = () => {
         <Top />
         <WhoWeAre />
         <WhatWeDo />
+        <Leadership />
         {/* TODO: Add Meet the Team section */}
         <Ending width={width} />
       </article>

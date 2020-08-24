@@ -1,140 +1,57 @@
 // Leadership section
 
-// .about-leadership {
-//   background-color: #ffffff;
-//
-//   .about-leadership-container {
-//     margin: 0 auto;
-//     padding: 3rem 0 1rem;
-//
-//     .about-leadership-beginning {
-//       padding-left: 8vw;
-//       padding-right: 8vw;
-//       margin-bottom: 2rem;
-//
-//       h2 {
-//         font-size: 2.5rem;
-//         font-weight: bold;
-//       }
-//     }
-//
-//     .about-roles-container {
-//       padding: 0 6.25vw;
-//     }
-//   }
-
-//BEGIN CODEBASE
-
-.cb-draggable-row-card {
-  cursor: grab;
-}
-
-.cb-draggable-row-container {
-  width: 100%;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  overflow-x: auto !important;
-}
-
-@media only screen and (max-width: 479px) {
-  .cb-draggable-row-card {
-    margin-bottom: 20px;
-  }
-}
-
-@media only screen and (min-width: 480px) {
-  .cb-draggable-row-card {
-    max-width: 250px !important;
-    min-width: 250px !important;
-    margin-right: 20px;
-  }
-
-  .cb-draggable-row-hidden {
-    min-width: 25px;
-  }
-
-  .cb-draggable-row-row {
-    flex-wrap: nowrap;
-  }
-}
-
-.cb-card {
-  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
-  border-radius: 5px;
-  transition: transform 0.2s;
-}
-
-.cb-card:hover {
-  transform: scale(1.03);
-}
-
-.cb-card-body {
-  font-family: "Inter-Medium";
-  font-size: 13px;
-  padding: 25px;
-}
-
-.cb-card-blue {
-  background-color: #336ee2;
-}
-
-.cb-card-orange {
-  background-color: #f77b6f;
-}
-
-.cb-card-navy {
-  background-color: #3b5c9d;
-}
-
-.cb-card-green {
-  background-color: #36b37e;
-}
-
-.cb-wrapper-gray {
-  width: 100%;
-  background-color: #f6f7f8;
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
-
-.cb-wrapper-white {
-  width: 100%;
+.about-leadership {
   background-color: #ffffff;
-  padding-top: 80px;
-  padding-bottom: 80px;
+
+  .about-leadership-container {
+    margin: 0 auto;
+    padding: 3rem 0 1rem;
+
+    .about-leadership-beginning {
+      padding-left: 8vw;
+      padding-right: 8vw;
+      margin-bottom: 2rem;
+
+      h2 {
+        font-size: 3 rem !important;
+        font-weight: bold;
+      }
+    }
+
+    .about-roles-container {
+      padding: 0 6.25vw;
+    }
+  }
 }
 
-.cb-wrapper-blue {
-  background-color: #336ee2;
-  width: 100%;
-  padding-top: 80px;
-  padding-bottom: 80px;
+.row > div[class*='col-'] {
+  display: flex;
+  flex:1 0 auto;
 }
 
-.cb-section-title {
-  color: rgba(47, 47, 48, 0.6);
-  font-size: 13px;
-  margin-bottom: 30px;
+.card {
+  width:100%;
+  max-width: 250px;
 }
 
-.cb-section-heading {
-  font-family: "Inter-SemiBold";
-  font-size: 24px;
-  color: #2f2f30;
-  margin-bottom: 10px;
+.card-title {
+  font-family: "Raleway", sans-serif;
+  padding-top: 5px;
+  align: center;
 }
 
-.cb-section-text {
-  font-family: "Inter-Medium";
-  font-size: 14px;
-  color: #80868b;
+.bg-purple {
+  background-color: #f8eeff !important;
 }
 
-.cb-airtable {
-  border-radius: 5px;
-  margin-top: 100px;
+.border-purple {
+  border-color: #693699 !important;
 }
-//END CODEBASE
+
+.card-img-top {
+  margin: 0 !important;
+  border-radius: 2px !important;
+}
 
   :root {
   --gutter: 20px;
