@@ -105,9 +105,13 @@
   .about-activity-skill-up,
   .about-activity-collaborate-build-conquer {
     flex-direction: row-reverse;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 
   .about-activity-hackathon {
     flex-direction: row;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 }
