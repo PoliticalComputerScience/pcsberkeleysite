@@ -700,6 +700,7 @@
   // 10vw of padding for width on large horizontal phones and tablets
   @media screen and (min-width: 43.75rem) {
     margin-top: 25vh;
+    width: 100% !important;
 
     // URL text field
     input {

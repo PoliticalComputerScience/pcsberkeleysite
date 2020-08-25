@@ -28,18 +28,8 @@ const Navigation = () => {
               <Link to="/about">About Us</Link>
             </li>
             <li>
-              <Link to="/events">Events</Link>
-            </li>
-            <li>
-              <Link to="/resources">Resources</Link>
-            </li>
-            <li>
-              <Link to="/contribute">Contribute</Link>
-            </li>
-            <li>
-              {/* Temporary email contact until contact page is ready */}
-              {/* <Link to="/contact">Contact</Link> */}
-              <a href="mailto:pcs.berkeley@gmail.com">Contact</a>
+              {/* Link to Medium Blog */}
+              <a href="https://medium.com/pcs-berkeley">Blog</a>
             </li>
 
             <li className="join-button">
