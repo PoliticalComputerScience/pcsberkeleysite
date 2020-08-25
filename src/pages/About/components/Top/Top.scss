@@ -1,8 +1,8 @@
 .about-top {
   // Mobile styles
 
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url('../../../../assets/about/about-header-mobile.jpg');
+  // background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+  //   url('../../../../assets/about/about-header-mobile.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 
@@ -31,7 +31,7 @@
     margin: 12.5% auto 0;
 
     // Text style
-    color: #fff;
+    color: #000000;
     font-family: 'Nunito', sans-serif;
     font-size: 1.25rem;
     font-weight: bold;
@@ -44,7 +44,7 @@
 
     // Button styling
     padding: 1rem;
-    background-color: #4d5eff;
+    background-color: #f8eeff;
     border-radius: 50px;
     width: 95%;
   }
@@ -61,8 +61,9 @@
 
   // Small landscape phones
   @media screen and (orientation: landscape) {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-      url('../../../../assets/about/about-header-desktop.jpg');
+    // background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    //   url('../../../../assets/about/about-header-desktop.jpg');
+    background-color: #693699;
 
     .about-top-container {
       padding: 5vw 6.25vw;
@@ -86,8 +87,9 @@
   // 700px (vertical tablets and horizontal phones)
   // Landscape and tablet optimized layout
   @media screen and (min-width: 43.75rem) {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-      url('../../../../assets/about/about-header-desktop.jpg');
+    // background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    //   url('../../../../assets/about/about-header-desktop.jpg');
+    background-color: #693699;
 
     h1 {
       margin-bottom: 7.5%;
@@ -103,8 +105,9 @@
 
     // Large landscape phones
     @media screen and (orientation: landscape) {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-        url('../../../../assets/about/about-header-desktop.jpg');
+      // background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      //   url('../../../../assets/about/about-header-desktop.jpg');
+      background-color: #693699;
       padding: 0;
 
       .about-top-container {
