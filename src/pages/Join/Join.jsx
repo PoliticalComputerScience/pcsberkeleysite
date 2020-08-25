@@ -1,7 +1,11 @@
 // @flow
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './Join.scss';
+import learn from 'assets/home/highlights/learn.jpg';
+import JoinSection from './JoinSection';
+import Description from '../Home/components/Description';
+
 
 const Join = () => {
   // const [submitValue, setSubmitValue] = useState('Join!');
@@ -9,6 +13,19 @@ const Join = () => {
   const [lastName, setLastName] = useState('');
   const [email, setEmail] = useState('');
 
+  const [width, setWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+  const handleResize = () => {
+    setWidth(window.innerWidth);
+  };
   /*   const disableForm = () => {
     // Style submit button
     document.getElementById('form-join-submit').disabled = true;
@@ -29,68 +46,13 @@ const Join = () => {
   }; */
 
   return (
-    <section className="Join">
-      <div className="join-flex-container">
-        <div className="join-container">
-          <h1>Join the Club</h1>
-          <form
-            name="join"
-            id="join-form"
-            method="POST"
-            action="https://us-east1-bc-cs-club-website.cloudfunctions.net/handleJoin"
-            // onSubmit={disableForm}
-          >
-            <div className="form-name-row">
-              <div className="form-first-name">
-                <label htmlFor="first-name">First Name*</label>
-                <input
-                  className="form-join-field"
-                  type="text"
-                  name="first-name"
-                  id="first-name"
-                  value={firstName}
-                  onChange={(e) => setFirstName(e.target.value)}
-                  required
-                />
-              </div>
-
-              <div className="form-last-name">
-                <label htmlFor="last-name">Last Name*</label>
-                <input
-                  className="form-join-field"
-                  type="text"
-                  name="last-name"
-                  id="last-name"
-                  value={lastName}
-                  onChange={(e) => setLastName(e.target.value)}
-                  required
-                />
-              </div>
-            </div>
-
-            <div className="form-email">
-              <label htmlFor="email">Email Address*</label>
-              <input
-                className="form-join-field"
-                type="email"
-                name="email"
-                id="email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                required
-              />
-            </div>
-
-            <br />
-            <div>
-              <input id="form-join-submit" type="submit" value="Join!"/>
-              {/* <input id="form-join-submit" type="submit" value={submitValue} /> */}
-            </div>
-          </form>
-          <Link to="/welcome"></Link>
+    <div className="join-flex-container">
+      <div className="join-container">
+        <div className="welcome-background-container">
+        <JoinSection width={width} />
+        </div>
         </div>
       </div>
-    </section>
   );
 };
 

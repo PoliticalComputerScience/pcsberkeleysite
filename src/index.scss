@@ -51,6 +51,10 @@
   width: 100%;
 }
 
+*, ::after, ::before {
+  width: 100%;
+}
+
 // 362px/22.625rem and above
 // (Larger vertical phones)
 @media screen and (min-width: 22.625rem) {
@@ -111,4 +115,8 @@ header {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+body > #root > div {
+  width: 100%;
 }
