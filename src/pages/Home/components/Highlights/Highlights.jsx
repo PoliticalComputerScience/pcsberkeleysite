@@ -41,8 +41,8 @@ const Highlights = () => {
         containerClass="highlight-learn"
         title="Learn."
         description={descriptions[0]}
-        linkUrl="/events"
-        linkText="Browse Events"
+        linkUrl="/join"
+        linkText="Apply Now"
         image={learn}
         imageAlt="Learn"
         backgroundColor="#CBE4F9"

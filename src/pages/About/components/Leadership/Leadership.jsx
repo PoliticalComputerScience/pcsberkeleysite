@@ -16,6 +16,7 @@ import Ebru from '../../../../assets/about/Headshots/ebru.jpg';
 import Tyler from '../../../../assets/about/Headshots/tyler.jpg';
 import Chenyu from '../../../../assets/about/Headshots/chenyu.jpg';
 import Estelle from '../../../../assets/about/Headshots/estelle.jpg';
+import Sarat from '../../../../assets/about/Headshots/sarat.jpg';
 
 
 const Leadership = () => {
@@ -113,7 +114,7 @@ const Leadership = () => {
         </div>
         <div class="col-md-6 col-lg-4 col-xl-3 py-2">
             <div class="card bg-light border-dark h-100">
-                <img class="card-img-top img-fluid" src={Ebru} alt="Card image cap" />
+                <img class="card-img-top img-fluid" src={Sarat} alt="Card image cap" />
                 <div class="card-block">
                     <p class="card-text"><small class="text-muted"> </small></p>
                     <h4 class="card-title"><center>Sarat Kotthakota</center></h4>
