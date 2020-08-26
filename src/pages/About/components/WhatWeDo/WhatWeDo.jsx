@@ -2,9 +2,9 @@ import React from 'react';
 import Activity from './Activity';
 import HackathonActivity from './HackathonActivity';
 import './WhatWeDo.scss';
-import skillUpImage from 'assets/about/activities/skill-up.jpg';
-import hackathonImage from 'assets/about/activities/hackathon.jpg';
-import collaborateBuildConquerImage from 'assets/about/activities/collaborate-build-conquer.jpg';
+import friendsImage from 'assets/about/activities/friends.jpeg';
+import learnImage from 'assets/about/activities/learnpls.jpg';
+import fillerImage from 'assets/about/activities/filler.jpg';
 
 const WhatWeDo = () => {
   return (
@@ -12,47 +12,52 @@ const WhatWeDo = () => {
       <div className="about-what-we-do-container">
         <div className="about-what-we-do-beginning">
           <h2>What We Do</h2>
-          <p>
-            Here at the Computer Science Club, there’s no shortage of things to
-            do and activities to participate in. Here are just some of the things
-            that you might see us doing!
-          </p>
         </div>
 
         <div className="about-activities-container">
-          {/* Skill Up */}
+          {/* Collaborate & Build */}
           <Activity
             componentClass="about-activity-skill-up"
-            image={skillUpImage}
+            image={fillerImage}
             imageAlt="Students gathered in an event venue viewing a presentation from the presenter."
-            title="Skill Up at an Event"
+            title="Collaborate & Build"
             description={`
-            Join us for a wide variety of events, ranging from tech talks, workshops, challenges, and much more (not to mention free food as well!). Some of our past events included a company visit to LinkedIn, a presentation about the evolution of the latest and greatest web frameworks, and a talk about how Alan Turing, widely considered to be the forefather of computer science, broke a secret code using cryptography.
+              Political Computer Science at Berkeley is a project-based club that utilizes computer science to
+              address political problems. As a member, you'll be put onto one of our project teams for the
+              whole semester. You'll be able to participate as a computer programmer or a political researcher,
+               depending on your preference and your background. You'll meet with your project team once per week,
+               building and learning together.
           `}
           />
 
-          {/* Hackathon */}
+          {/* Learn baby learn */}
           <HackathonActivity
             componentClass="about-activity-hackathon"
-            image={hackathonImage}
+            image={learnImage}
             imageAlt="Winners of a hackathon with some team members from Brooklyn College."
-            title="Hack Away at a Hackathon"
-            subtitle="(don't worry, not that kind of hacking!)"
+            title="Skill Up at our Workshops"
+            subtitle="(Get that 3.3 CS GPA with us!)"
             description={[
-              'Many of our club members love to attend hackathons, which are weekend-long events where people interested in technology learn, build, and share their ideas and creations. Find some team members and build your next hackathon team here!',
-              'Our club is proud to be home to winners from various hackathons held across the country, including some hosted by Cornell University, Stony Brook University, and Johns Hopkins University.',
-              'We also have our very own hackathon as well! In collaboration with other clubs here at Brooklyn College, we are proud to host Hack Brooklyn, our very own hackathon, right here at Brooklyn College! Look forward to it this coming spring.',
+              'We want our members to succeed in their academic and professional lives. No gatekeeping here–– many of our upperclassmen members collaborate with our development chair to create workshops to share their skills and knowledge gained in upper division courses and internships',
+              'We also host various panels and events with professionals, both in computer science and political science, so you can get to learn more about experiences in the industry.',
+              'Want your resume reviewed or practice for an upcoming interview? We’ve got you covered.',
             ]}
           />
 
-          {/* Collaborate, Build, and Conquer */}
+          {/* Community babey */}
           <Activity
             componentClass="about-activity-collaborate-build-conquer"
-            image={collaborateBuildConquerImage}
-            imageAlt="Students collaborating together to solve a problem."
-            title="Collaborate, Build, and Conquer"
+            image={friendsImage}
+            imageAlt="Fall 2019 Retreat."
+            title="Make Friends <3"
             description={`
-            Events aren't the only thing we do here! Our club members love to build their portfolios and work on passion projects in their free time. Looking for a team to build a project with or want to practice your whiteboarding and interviewing skills in a mock interview with someone? Look no further!
+            To foster our sense of community in PCS@Berkeley, we host many social events for our
+            members to get to know each other on a more personal level. In the past, we’ve hosted
+            weekend retreats, video game tournament nights, and debate watch parties. We believe
+            that in this mostly digital semester,  it is now more important than ever to build up
+             a tight-knit community among our members. This semester, we will be hosting a variety
+              of online social events so that our members, especially new freshmen and transfer
+              students, can develop friendships they otherwise would have made on campus.
           `}
           />
         </div>

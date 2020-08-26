@@ -32,6 +32,12 @@ const FooterContents = () => {
         <p>© Political Computer Science @ Berkeley</p>
         <p>We are a student group acting independently of the University of California.
         We take full responsibility for our organization and this website.</p>
+        <br />
+        <a href="https://www.ocf.berkeley.edu">
+    <img src="https://www.ocf.berkeley.edu/hosting-logos/ocfbadge_blue8.png"
+        alt="Hosted by the OCF" />
+</a>
+
       </div>
     );
   } else {
@@ -43,6 +49,12 @@ const FooterContents = () => {
           We are a student group acting independently of the University of California.
           We take full responsibility for our organization and this website.
         </p>
+        <br />
+        <a href="https://www.ocf.berkeley.edu">
+    <img src="https://www.ocf.berkeley.edu/hosting-logos/ocfbadge_blue8.png"
+        alt="Hosted by the OCF" />
+</a>
+
       </div>
     );
   }

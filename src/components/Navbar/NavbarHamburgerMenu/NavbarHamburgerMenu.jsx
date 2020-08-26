@@ -62,10 +62,10 @@ const NavbarHamburgerMenu = () => {
               {/* Temporary email contact until contact page is ready */}
               {/* <Link to="/contact">Contact</Link> */}
               <a
-                href="mailto:contact@bccompsci.club"
+                href="https://medium.com/pcs-berkeley"
                 onClick={context.toggleMenu}
               >
-                Contact
+                Blog
               </a>
             </li>
           </ul>

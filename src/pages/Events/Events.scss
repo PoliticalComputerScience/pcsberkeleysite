@@ -1,99 +1,78 @@
 .Events {
-  margin: 2.5vh auto 10vh;
-  padding: 0 8vw;
+  // margin: 2.5vh auto 10vh;
+  // padding: 0 8vw;
+  // width: 100% !important;
 
-  span {
-    margin: 0 auto;
-    display: block;
-    text-align: center;
-    font-size: 5rem;
-  }
+  // What We Do section
+  .about-what-we-do {
+    background-color: #f8eeff;
 
-  h1 {
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
-    font-size: 2.25rem;
-    margin: 10vh auto 2rem;
-  }
+    .about-what-we-do-container {
+      margin: 0 auto;
+      padding: 3rem 0 1rem;
 
-  h2 {
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
-    font-size: 2rem;
-    margin-bottom: 2.5vh;
-  }
+      .about-what-we-do-beginning {
+        padding-left: 8vw;
+        padding-right: 8vw;
+        margin-bottom: 2rem;
 
-  p {
-    font-family: 'Nunito', sans-serif;
-    font-size: 1.25rem;
-    margin-bottom: 2rem;
-  }
-
-  .events-list {
-    margin: 0 auto 2rem;
-    padding: 0 2rem;
-
-    li {
-      font-size: 1.5rem;
-      margin-bottom: 1rem;
-    }
-
-    a {
-      //padding-left: 0.25rem;
-      font-size: 1.5rem;
-    }
-  }
-
-  // Desktop, Tablet, and Horizontal Phone styles
-
-  // 700px/43.75rem and above (Vertical tablets and large horizontal phones)
-  @media screen and (min-width: 43.75rem) {
-    display: flex;
-    flex-direction: column;
-    max-width: 53.8125rem; // 861px, 70% of 1230px
-    margin: 5vh auto 20%;
-
-    h1 {
-      font-size: 3rem;
-      margin-top: 2rem;
-    }
-
-    h2 {
-      font-size: 2.5rem;
-      margin: 0 auto 2.5rem;
-    }
-
-    p {
-      max-width: 52rem;
-      margin: 0 auto 2.5rem;
-    }
-
-    .events-list {
-      padding: 0;
-
-      li {
-        font-size: 1.75rem;
+        h2 {
+          font-size: 2.5rem;
+          font-weight: bold;
+        }
       }
 
-      a {
-        font-size: 1.75rem;
+      .about-activities-container {
+        padding: 0 6.25vw;
       }
     }
 
-    padding: 0 10vw;
+    // 700px/43.75rem and above (Vertical tablets and large horizontal phones)
+    // 10vw of padding for width on large horizontal phones and tablets
+    @media screen and (min-width: 43.75rem) {
+      margin: 0 auto 3rem;
 
-    // Padding for landscape iPhones with notch
-    @supports (padding: max(0px)) {
-      @media screen and (orientation: landscape) {
-        padding-left: max(10vw, calc(env(safe-area-inset-left) + 10vw));
-        padding-right: max(10vw, calc(env(safe-area-inset-right) + 10vw));
+      .about-what-we-do-container {
+        .about-what-we-do-beginning {
+          padding-left: 6.25vw;
+          padding-right: 6.25vw;
+
+          max-width: 52rem;
+          margin: 0 auto 4rem;
+          text-align: center;
+
+          h2 {
+            font-size: 3rem;
+          }
+        }
+
+        .about-activities-container {
+          padding: 0;
+        }
       }
     }
-  }
 
-  // 1366px (medium laptops)
-  // Increase margin on top and set max width for all larger resolutions
-  @media screen and (min-width: 85.375rem) {
-    max-width: var(--large-screen-max-width);
+    // 1024px (horizontal tablets)
+    @media screen and (min-width: 64rem) {
+      .about-what-we-do-container {
+        .about-what-we-do-beginning {
+          padding-left: 0;
+          padding-right: 0;
+        }
+      }
+    }
+
+    // 1366px (medium laptops)
+    // Increase margin on top and set max width for all larger resolutions
+    @media screen and (min-width: 85.375rem) {
+      margin: 0 auto;
+
+      .about-what-we-do-container {
+        padding: 3rem 0 1rem;
+        padding-left: 0;
+        padding-right: 0;
+        // max-width: var(--large-screen-max-width);
+      }
+    }
   }
 }

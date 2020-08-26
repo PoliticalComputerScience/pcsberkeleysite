@@ -1,0 +1,194 @@
+// Leadership section
+
+.about-leadership {
+  background-color: #ffffff;
+
+  .about-leadership-container {
+    margin: 0 auto;
+    padding: 3rem 0 1rem;
+
+    .about-leadership-beginning {
+      padding-left: 8vw;
+      padding-right: 8vw;
+      margin-bottom: 2rem;
+
+      h2 {
+        font-size: 3 rem !important;
+        font-weight: bold;
+      }
+    }
+
+    .about-roles-container {
+      padding: 0 6.25vw;
+    }
+  }
+}
+
+.row > div[class*='col-'] {
+  display: flex;
+  flex:1 0 auto;
+}
+
+.card {
+  width:100%;
+  max-width: 250px;
+}
+
+.test-footer {
+  height: 15px;
+  padding: 2px;
+}
+
+.card-title {
+  font-family: "Raleway", sans-serif;
+  padding-top: 5px;
+  align: center;
+}
+
+.bg-purple {
+  background-color: #f8eeff !important;
+}
+
+.border-purple {
+  border-color: #693699 !important;
+}
+
+.card-img-top {
+  margin: 0 !important;
+  border-radius: 2px !important;
+}
+
+  :root {
+  --gutter: 20px;
+}
+
+.app {
+  padding: var(--gutter) 0;
+  display: grid;
+  grid-gap: var(--gutter) 0;
+  grid-template-columns: var(--gutter) 1fr var(--gutter);
+  align-content: start;
+}
+
+.app > * {
+  grid-column: 2 / -2;
+}
+
+.app > .full {
+  grid-column: 1 / -1;
+}
+
+.hs {
+  display: grid;
+  grid-gap: calc(var(--gutter) / 2);
+  grid-template-columns: 10px repeat(6, calc(50% - var(--gutter) * 2)) 10px;
+  grid-template-rows: minmax(150px, 1fr);
+
+  overflow-x: scroll;
+  scroll-snap-type: x proximity;
+  padding-bottom: calc(.75 * var(--gutter));
+  margin-bottom: calc(-.5 * var(--gutter));
+}
+
+.hs:before,
+.hs:after {
+  content: '';
+}
+
+/* Hide scrollbar */
+.hide-scroll {
+  overflow-y: hidden;
+  margin-bottom: calc(-.1 * var(--gutter));
+}
+
+
+/* Demo styles */
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  background: #456173;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+.app {
+  width: 100%;
+  height: 667px;
+  background: #FFFFFF;
+  overflow-y: scroll;
+}
+
+.hs > li,
+.item {
+  scroll-snap-align: center;
+  padding: calc(var(--gutter) / 2 * 1.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 400px;
+  background: #f8eeff;
+  border-radius: 8px;
+}
+
+  // 700px/43.75rem and above (Vertical tablets and large horizontal phones)
+  // 10vw of padding for width on large horizontal phones and tablets
+//   @media screen and (min-width: 43.75rem) {
+//     margin: 0 auto 3rem;
+//
+//     .about-leadership-container {
+//       .about-leadership-beginning {
+//         padding-left: 6.25vw;
+//         padding-right: 6.25vw;
+//
+//         max-width: 52rem;
+//         margin: 0 auto 4rem;
+//         text-align: center;
+//
+//         h2 {
+//           font-size: 3rem;
+//         }
+//       }
+//
+//       .about-roles-container {
+//         padding: 0;
+//       }
+//     }
+//   }
+//
+//   // 1024px (horizontal tablets)
+//   @media screen and (min-width: 64rem) {
+//     .about-leadership-container {
+//       .about-leadership-beginning {
+//         padding-left: 0;
+//         padding-right: 0;
+//       }
+//     }
+//   }
+//
+//   // 1366px (medium laptops)
+//   // Increase margin on top and set max width for all larger resolutions
+//   @media screen and (min-width: 85.375rem) {
+//     margin: 0 auto;
+//
+//     .about-leadership-container {
+//       padding: 3rem 0 1rem;
+//       max-width: var(--large-screen-max-width);
+//     }
+//   }
+// }

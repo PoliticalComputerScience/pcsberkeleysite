@@ -7,31 +7,18 @@ const WhoWeAre = () => {
       <h2>Who We Are</h2>
 
       <p>
-        The Brooklyn College Computer Science Club is Brooklyn College’s premier
-        student-led, community-first computer science community where students
-        interested in technology come together to learn and grow in a safe,
-        warm, and welcoming environment. Together as a community, we share our
-        knowledge and offer advice to each other, form teams to build projects
-        and attend hackathons with, discuss the latest trends and technologies,
-        and more!
+        UC Berkeley is known both for its world-famous Computer Science
+        program as well as its rich history of political advocacy by its
+        student body. Political Computer Science at Berkeley provides students
+        with a space to tap into both of these backgrounds. We are a community
+        of students interested in computer and political science––and more
+        specifically, the intersection of these two important fields.
       </p>
 
       <p>
-        The best and most innovative software engineers, data scientists, and
-        UX/UI designers all started from somewhere! We welcome members of all
-        skill levels and fields, ranging from complete beginner developers to
-        the most seasoned designers. Our welcoming community is here to help you
-        if you’re new to the world of computer science! Whether you need help
-        with an assignment, want some advice about your career, or simply want
-        to learn more about the field, our friendly community members can help
-        point you in the right direction.
+      {/* TODO: Add More */}
       </p>
 
-      <p>
-        No matter what your current programming experience is or whether you’re
-        planning on majoring in computer science or not, there’s a place for you
-        here at the Brooklyn College Computer Science Club.
-      </p>
     </section>
   );
 };

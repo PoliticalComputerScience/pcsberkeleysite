@@ -19,7 +19,7 @@ const EndingText = ({ width }) => {
     // Vertical phones
     return (
       <h2>
-        Ready to use tech for political good?
+        Where politics meets programming.
       </h2>
     );
   } else {
@@ -27,7 +27,7 @@ const EndingText = ({ width }) => {
     return (
       // eslint-disable-next-line
       <h2 role="text">
-        Ready to use tech for political good?
+        Where politics meets programming.
       </h2>
     );
   }

@@ -1,7 +1,7 @@
 // What We Do section
 
 .about-what-we-do {
-  background-color: #fff9ee;
+  background-color: #f8eeff;
 
   .about-what-we-do-container {
     margin: 0 auto;
@@ -65,7 +65,9 @@
 
     .about-what-we-do-container {
       padding: 3rem 0 1rem;
-      max-width: var(--large-screen-max-width);
+      padding-left: 0;
+      padding-right: 0;
+      // max-width: var(--large-screen-max-width);
     }
   }
 }
