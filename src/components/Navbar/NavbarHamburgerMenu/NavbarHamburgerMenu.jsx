@@ -49,13 +49,8 @@ const NavbarHamburgerMenu = () => {
               </Link>
             </li>
             <li>
-              <Link to="/events" onClick={context.toggleMenu}>
-                Events
-              </Link>
-            </li>
-            <li>
               <Link to="/resources" onClick={context.toggleMenu}>
-                Resources
+                Projects
               </Link>
             </li>
             <li>

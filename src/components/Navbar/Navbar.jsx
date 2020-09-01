@@ -28,10 +28,12 @@ const Navigation = () => {
               <Link to="/about">About Us</Link>
             </li>
             <li>
+              <Link to="/resources">Projects</Link>
+            </li>
+            <li>
               {/* Link to Medium Blog */}
               <a href="https://medium.com/pcs-berkeley">Blog</a>
             </li>
-
             <li className="join-button">
               <Link to="/join">Join the Club</Link>
             </li>

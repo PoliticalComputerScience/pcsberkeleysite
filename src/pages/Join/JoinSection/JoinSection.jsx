@@ -26,10 +26,10 @@ const JoinSection = (props) => {
           <center><b>Important Dates:</b></center>
           <ul>
             <li><a href="https://berkeley.zoom.us/j/97414138641">
-            Zoom info session 1:</a> September 4, 2020 at 7PM (PST)</li>
-            <li><a href="https://berkeley.zoom.us/j/95228013755">
-            Zoom info session 2:</a> September 7, 2020 at 7PM (PST)</li>
-            <li>Application due date: September 12, 2020 at 11:59PM (PST)</li>
+            Zoom information session:</a> September 4, 2020 at 7PM (PST)</li>
+            <li>Application due date: September 10, 2020 at 11:59PM (PST)</li>
+            <li>Zoom "coffee chats": September 13 - September 15</li>
+            <li>Decisions Released: September 16</li>
           </ul>
           Can't make it because of a class conflict or time zone issues?
           No problem.
@@ -40,7 +40,7 @@ const JoinSection = (props) => {
         </p>
 
         <p>
-          📖 <a href="https://forms.gle/KPoar5Piy5SXGFoD9">Apply as a political consultant here.</a>
+          📖 <a href="https://forms.gle/KPoar5Piy5SXGFoD9">Apply as a political researcher here.</a>
           <br />
           <br />
           💻 <a href="https://forms.gle/GX6Vz2Awa7kn9qnf7">Apply as a programmer here.</a>
