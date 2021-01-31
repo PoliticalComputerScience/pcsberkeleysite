@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.2bc3e424.chunk.css",
-    "main.js": "/static/js/main.221a3d9b.chunk.js",
-    "main.js.map": "/static/js/main.221a3d9b.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.36736277.js",
-    "runtime-main.js.map": "/static/js/runtime-main.36736277.js.map",
+    "main.css": "/static/css/main.9bbca9f4.chunk.css",
+    "main.js": "/static/js/main.338f4f7b.chunk.js",
+    "main.js.map": "/static/js/main.338f4f7b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9c83bfbf.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9c83bfbf.js.map",
     "static/css/2.7b7d8dce.chunk.css": "/static/css/2.7b7d8dce.chunk.css",
-    "static/js/2.a924a825.chunk.js": "/static/js/2.a924a825.chunk.js",
-    "static/js/2.a924a825.chunk.js.map": "/static/js/2.a924a825.chunk.js.map",
+    "static/js/2.df44efdc.chunk.js": "/static/js/2.df44efdc.chunk.js",
+    "static/js/2.df44efdc.chunk.js.map": "/static/js/2.df44efdc.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.6c4fd0c999215b47caf2783ccb480dc2.js": "/precache-manifest.6c4fd0c999215b47caf2783ccb480dc2.js",
+    "precache-manifest.a9b6b1c6c405df98f26967f7a9d78be6.js": "/precache-manifest.a9b6b1c6c405df98f26967f7a9d78be6.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.7b7d8dce.chunk.css.map": "/static/css/2.7b7d8dce.chunk.css.map",
-    "static/css/main.2bc3e424.chunk.css.map": "/static/css/main.2bc3e424.chunk.css.map",
-    "static/js/2.a924a825.chunk.js.LICENSE.txt": "/static/js/2.a924a825.chunk.js.LICENSE.txt",
+    "static/css/main.9bbca9f4.chunk.css.map": "/static/css/main.9bbca9f4.chunk.css.map",
+    "static/js/2.df44efdc.chunk.js.LICENSE.txt": "/static/js/2.df44efdc.chunk.js.LICENSE.txt",
     "static/media/add-to-calendar.svg": "/static/media/add-to-calendar.9068c9b2.svg",
     "static/media/anav.jpg": "/static/media/anav.f6a7f2ff.jpg",
     "static/media/blocs.png": "/static/media/blocs.e2c587e3.png",
@@ -45,10 +45,10 @@
     "static/media/uzoma.jpg": "/static/media/uzoma.e92f143a.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.36736277.js",
+    "static/js/runtime-main.9c83bfbf.js",
     "static/css/2.7b7d8dce.chunk.css",
-    "static/js/2.a924a825.chunk.js",
-    "static/css/main.2bc3e424.chunk.css",
-    "static/js/main.221a3d9b.chunk.js"
+    "static/js/2.df44efdc.chunk.js",
+    "static/css/main.9bbca9f4.chunk.css",
+    "static/js/main.338f4f7b.chunk.js"
   ]
 }
