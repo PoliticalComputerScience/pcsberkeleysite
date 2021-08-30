@@ -25,11 +25,8 @@ const JoinSection = (props) => {
           <br />
           <center><b>Important Dates:</b></center>
           <ul>
-            <li><a href="https://berkeley.zoom.us/j/3722333206">
-            Zoom information session:</a> January 4, 2021 & January 5, 2021 at 7PM (PST)</li>
-            <li>Application due date: January 31, 2021 at 11:59PM (PST)</li>
-            <li>Zoom "coffee chats": February 2 - February 3</li>
-            <li>Decisions Released: February 4</li>
+            <li> Information sessions: Tuesday September 7th, 2021 & Wednesday September 8th, 2021 at 7PM (PST)</li>
+            <li>Application due date: Friday September 10, 2021 at 11:59PM (PST)</li>
           </ul>
           Can't make it because of a class conflict or time zone issues?
           No problem.
@@ -40,7 +37,7 @@ const JoinSection = (props) => {
         </p>
 
         <p>
-          💻 <a href="https://forms.gle/QKdxs1SGQ98asHFJ7">Apply Here!.</a>
+          💻 Applications to be released soon!.
           <br />
           <br />
         </p>
