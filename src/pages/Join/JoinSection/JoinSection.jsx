@@ -37,7 +37,7 @@ const JoinSection = (props) => {
         </p>
 
         <p>
-          💻 Applications to be released soon!.
+          💻 <a href="https://docs.google.com/forms/d/e/1FAIpQLSeLE3Co-XF8ITyNUrHU6dUuhnHWarzN2xVMh5_xrtYTYYIyNA/viewform?usp=sf_link">Apply Here!</a> 
           <br />
           <br />
         </p>

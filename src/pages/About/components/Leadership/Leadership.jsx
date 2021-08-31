@@ -12,17 +12,17 @@ import Col from "react-bootstrap/Col"
 
 import Shreya from '../../../../assets/about/Headshots/shreya.jpg';
 import Arunan from '../../../../assets/about/Headshots/arunan.jpg';
-//import Allen from '../../../../assets/about/Headshots/allen.jpg';
+import Allen from '../../../../assets/about/Headshots/allen.jpg';
 import Sara from '../../../../assets/about/Headshots/sara.jpg';
  
 // import Anav from '../../../../assets/about/Headshots/anav.jpg';
- import Uzoma from '../../../../assets/about/Headshots/uzoma.jpg';
+// import Uzoma from '../../../../assets/about/Headshots/uzoma.jpg';
 // import Elyse from '../../../../assets/about/Headshots/elyse.jpg';
- import Ebru from '../../../../assets/about/Headshots/ebru.jpg';
+// import Ebru from '../../../../assets/about/Headshots/ebru.jpg';
 // import Tyler from '../../../../assets/about/Headshots/tyler.jpg';
 // import Chenyu from '../../../../assets/about/Headshots/chenyu.jpg';
 // import Estelle from '../../../../assets/about/Headshots/estelle.jpg';
- import Sarat from '../../../../assets/about/Headshots/sarat.jpg';
+// import Sarat from '../../../../assets/about/Headshots/sarat.jpg';
 
 
 const Leadership = () => {
@@ -65,7 +65,7 @@ const Leadership = () => {
         </div>
         <div class="col-md-6 col-lg-4 col-xl-3 py-2">
             <div class="card bg-light border-dark h-100">
-                <img class="card-img-top img-fluid" src={Uzoma} alt="Card image cap" />
+                <img class="card-img-top img-fluid" src={Allen} alt="Card image cap" />
                 <div class="card-block">
                     <p class="card-text"><small class="text-muted"> </small></p>
                     <h4 class="card-title"><center>Allen Mao</center></h4>
