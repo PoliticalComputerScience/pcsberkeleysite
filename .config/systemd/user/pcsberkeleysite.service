@@ -1,0 +1,10 @@
+[Unit]
+Description=PCS Webapp
+ConditionHost=vampires
+
+[Install]
+WantedBy=default.target
+
+[Service]
+ExecStart=/home/p/pc/pcs/pcsberkeleysite/run
+Restart=always
