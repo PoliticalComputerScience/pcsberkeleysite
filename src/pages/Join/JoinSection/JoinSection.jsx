@@ -1,7 +1,7 @@
 // @flow
 import React from 'react';
 import './JoinSection.scss';
-import image from 'assets/home/group_photo.jpg';
+import image from 'assets/home/fall2021recruitment.png';
 
 const JoinSection = (props) => {
   return (
@@ -11,13 +11,20 @@ const JoinSection = (props) => {
         <div className="description-mission" role="text">
         <br />
         </div>
+        <div className="description-image-container">
+          <img
+            className="description-image"
+            src={image}
+            alt="PCS Fall 2021 Recruitment Schedule."
+          />
+        </div>
       </div>
       <div className="description-main">
         <p>
           Thank you for your interest in PCS@Berkeley!
           <br />
           <br/ >
-          We will be hosting virtual recruitment events, including two
+          We will be hosting In-person and virtual recruitment events, including two
           information sessions regarding our club, upcoming projects, and
           a walkthrough of our application process. You'll be able to meet
           our current leadership team and ask us any questions you may have.
@@ -25,8 +32,9 @@ const JoinSection = (props) => {
           <br />
           <center><b>Important Dates:</b></center>
           <ul>
-            <li> Information sessions: Tuesday September 7th, 2021 & Wednesday September 8th, 2021 at 7PM (PST)</li>
-            <li>Application due date: Friday September 10, 2021 at 11:59PM (PST)</li>
+            <li> Information sessions:<ol><li>Wednesday September 8th, 2021 at 7PM (<a href="https://goo.gl/maps/RBPkQSMMEHxjnkJo8" target="_blank" rel='noopener noreferrer'>Barrows 155</a>)</li> <li>Thursday September 9th, 2021 at 7PM (<a href="https://berkeley.zoom.us/j/3722333206" target="_blank" rel='noopener noreferrer'>Zoom</a>)</li></ol></li>
+            <li>Applications Due: Sunday September 12 11:59PM PST</li>
+            <li>Coffee Chats: Monday September 14th - 15th (Invite Only)</li>
           </ul>
           Can't make it because of a class conflict or time zone issues?
           No problem.

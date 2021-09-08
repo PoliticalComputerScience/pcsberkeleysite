@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.51cedc14.chunk.css",
-    "main.js": "/static/js/main.1f935aa7.chunk.js",
-    "main.js.map": "/static/js/main.1f935aa7.chunk.js.map",
+    "main.js": "/static/js/main.033ac509.chunk.js",
+    "main.js.map": "/static/js/main.033ac509.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9c83bfbf.js",
     "runtime-main.js.map": "/static/js/runtime-main.9c83bfbf.js.map",
     "static/css/2.84f31ead.chunk.css": "/static/css/2.84f31ead.chunk.css",
-    "static/js/2.93f5a909.chunk.js": "/static/js/2.93f5a909.chunk.js",
-    "static/js/2.93f5a909.chunk.js.map": "/static/js/2.93f5a909.chunk.js.map",
+    "static/js/2.95808d74.chunk.js": "/static/js/2.95808d74.chunk.js",
+    "static/js/2.95808d74.chunk.js.map": "/static/js/2.95808d74.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.084428d403d5cbe4df2a615f51eb563b.js": "/precache-manifest.084428d403d5cbe4df2a615f51eb563b.js",
+    "precache-manifest.f94246fdc4d17bbdfcc48372a56e083b.js": "/precache-manifest.f94246fdc4d17bbdfcc48372a56e083b.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.84f31ead.chunk.css.map": "/static/css/2.84f31ead.chunk.css.map",
     "static/css/main.51cedc14.chunk.css.map": "/static/css/main.51cedc14.chunk.css.map",
-    "static/js/2.93f5a909.chunk.js.LICENSE.txt": "/static/js/2.93f5a909.chunk.js.LICENSE.txt",
+    "static/js/2.95808d74.chunk.js.LICENSE.txt": "/static/js/2.95808d74.chunk.js.LICENSE.txt",
     "static/media/add-to-calendar.svg": "/static/media/add-to-calendar.6cad4210.svg",
     "static/media/allen.jpg": "/static/media/allen.6343e57f.jpg",
     "static/media/arunan.jpg": "/static/media/arunan.665095df.jpg",
@@ -26,6 +26,7 @@
     "static/media/education.png": "/static/media/education.17d212b1.png",
     "static/media/electionwatch.png": "/static/media/electionwatch.8d742b8e.png",
     "static/media/fakebook.png": "/static/media/fakebook.826cc1fc.png",
+    "static/media/fall2021recruitment.png": "/static/media/fall2021recruitment.141499a4.png",
     "static/media/filler.jpg": "/static/media/filler.a01e3d65.jpg",
     "static/media/friends.jpeg": "/static/media/friends.66fcfe2b.jpeg",
     "static/media/group_photo.jpg": "/static/media/group_photo.e09a27be.jpg",
@@ -43,8 +44,8 @@
   "entrypoints": [
     "static/js/runtime-main.9c83bfbf.js",
     "static/css/2.84f31ead.chunk.css",
-    "static/js/2.93f5a909.chunk.js",
+    "static/js/2.95808d74.chunk.js",
     "static/css/main.51cedc14.chunk.css",
-    "static/js/main.1f935aa7.chunk.js"
+    "static/js/main.033ac509.chunk.js"
   ]
 }
