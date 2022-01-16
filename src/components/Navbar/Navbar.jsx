@@ -30,10 +30,10 @@ const Navigation = () => {
             <li>
               <Link to="/resources">Projects</Link>
             </li>
-            <li>
-              {/* Link to Medium Blog */}
+            {/* <li>
+              {/* Link to Medium Blog}
               <a href="https://medium.com/pcs-berkeley">Blog</a>
-            </li>
+            </li> */}
             <li className="join-button">
               <Link to="/join">Join the Club</Link>
             </li>

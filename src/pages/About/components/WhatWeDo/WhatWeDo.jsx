@@ -2,9 +2,9 @@ import React from 'react';
 import Activity from './Activity';
 import HackathonActivity from './HackathonActivity';
 import './WhatWeDo.scss';
-import friendsImage from 'assets/about/activities/friends.jpeg';
+import friendsImage from 'assets/about/activities/retreatdinner.jpg';
 import learnImage from 'assets/about/activities/learnpls.jpg';
-import fillerImage from 'assets/about/activities/filler.jpg';
+import fillerImage from 'assets/about/activities/plantlol.jpg';
 
 const WhatWeDo = () => {
   return (
@@ -54,10 +54,10 @@ const WhatWeDo = () => {
             To foster our sense of community in PCS@Berkeley, we host many social events for our
             members to get to know each other on a more personal level. In the past, we’ve hosted
             weekend retreats, video game tournament nights, and debate watch parties. We believe
-            that in this mostly digital semester,  it is now more important than ever to build up
+            that as we transition back into in-person teaching,  it is now more important than ever to build up
              a tight-knit community among our members. This semester, we will be hosting a variety
-              of online social events so that our members, especially new freshmen and transfer
-              students, can develop friendships they otherwise would have made on campus.
+              of social events so that our members, especially new freshmen and transfer
+              students, can develop friendships they otherwise would not have made on campus.
           `}
           />
         </div>
