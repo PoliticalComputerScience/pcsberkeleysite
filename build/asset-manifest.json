@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.51cedc14.chunk.css",
-    "main.js": "/static/js/main.2deeb32e.chunk.js",
-    "main.js.map": "/static/js/main.2deeb32e.chunk.js.map",
+    "main.js": "/static/js/main.1616127d.chunk.js",
+    "main.js.map": "/static/js/main.1616127d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9c83bfbf.js",
     "runtime-main.js.map": "/static/js/runtime-main.9c83bfbf.js.map",
     "static/css/2.84f31ead.chunk.css": "/static/css/2.84f31ead.chunk.css",
-    "static/js/2.4a2e3156.chunk.js": "/static/js/2.4a2e3156.chunk.js",
-    "static/js/2.4a2e3156.chunk.js.map": "/static/js/2.4a2e3156.chunk.js.map",
+    "static/js/2.0e9c0399.chunk.js": "/static/js/2.0e9c0399.chunk.js",
+    "static/js/2.0e9c0399.chunk.js.map": "/static/js/2.0e9c0399.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.059bbb4d96d0b6a6c1779bfea2bab69e.js": "/precache-manifest.059bbb4d96d0b6a6c1779bfea2bab69e.js",
+    "precache-manifest.2c3d300f4e453b6b2a81390842e3278f.js": "/precache-manifest.2c3d300f4e453b6b2a81390842e3278f.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.84f31ead.chunk.css.map": "/static/css/2.84f31ead.chunk.css.map",
     "static/css/main.51cedc14.chunk.css.map": "/static/css/main.51cedc14.chunk.css.map",
-    "static/js/2.4a2e3156.chunk.js.LICENSE.txt": "/static/js/2.4a2e3156.chunk.js.LICENSE.txt",
+    "static/js/2.0e9c0399.chunk.js.LICENSE.txt": "/static/js/2.0e9c0399.chunk.js.LICENSE.txt",
     "static/media/add-to-calendar.svg": "/static/media/add-to-calendar.6cad4210.svg",
     "static/media/allen.jpg": "/static/media/allen.6343e57f.jpg",
     "static/media/arunan.jpg": "/static/media/arunan.665095df.jpg",
@@ -26,7 +26,6 @@
     "static/media/education.png": "/static/media/education.17d212b1.png",
     "static/media/electionwatch.png": "/static/media/electionwatch.8d742b8e.png",
     "static/media/fakebook.png": "/static/media/fakebook.826cc1fc.png",
-    "static/media/fall2021recruitment.png": "/static/media/fall2021recruitment.141499a4.png",
     "static/media/filler.jpg": "/static/media/filler.a01e3d65.jpg",
     "static/media/friends.jpeg": "/static/media/friends.66fcfe2b.jpeg",
     "static/media/learn.jpg": "/static/media/learn.32364a8a.jpg",
@@ -41,13 +40,14 @@
     "static/media/retreatgroup.jpg": "/static/media/retreatgroup.75e1b325.jpg",
     "static/media/sara.jpg": "/static/media/sara.ccfa406e.jpg",
     "static/media/share.svg": "/static/media/share.669e1aa0.svg",
-    "static/media/shreya.jpg": "/static/media/shreya.b685acc2.jpg"
+    "static/media/shreya.jpg": "/static/media/shreya.b685acc2.jpg",
+    "static/media/spring2022recruitment.png": "/static/media/spring2022recruitment.430cd85d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.9c83bfbf.js",
     "static/css/2.84f31ead.chunk.css",
-    "static/js/2.4a2e3156.chunk.js",
+    "static/js/2.0e9c0399.chunk.js",
     "static/css/main.51cedc14.chunk.css",
-    "static/js/main.2deeb32e.chunk.js"
+    "static/js/main.1616127d.chunk.js"
   ]
 }

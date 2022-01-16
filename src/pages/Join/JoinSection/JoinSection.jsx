@@ -1,7 +1,7 @@
 // @flow
 import React from 'react';
 import './JoinSection.scss';
-import image from 'assets/home/fall2021recruitment.png';
+import image from 'assets/home/spring2022recruitment.png';
 
 const JoinSection = (props) => {
   return (
@@ -11,13 +11,13 @@ const JoinSection = (props) => {
         <div className="description-mission" role="text">
         {/* <br /> */}
         </div>
-        {/* <div className="description-image-container">
+        <div className="description-image-container">
           <img
             className="description-image"
             src={image}
-            alt="PCS Fall 2021 Recruitment Schedule."
+            alt="PCS Spring 2022 Recruitment Schedule."
           />
-        </div> */}
+        </div>
       </div>
       <div className="description-main">
         <p>
@@ -44,7 +44,7 @@ const JoinSection = (props) => {
               </ol>
             </li>
             <li>Applications Due: Wednesday February 2<sup>nd</sup> 11:59PM PST</li>
-            {/* <li>Coffee Chats: Monday September 14th - 15th (Invite Only)</li> */}
+            <li>Coffee Chats: Monday September 5<sup>th</sup> - 6<sup>th</sup> (Invite Only)</li>
           </ul>
           <p style={{textAlign: 'center', fontSize: 28}}>
           <br />
