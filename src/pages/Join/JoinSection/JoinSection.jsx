@@ -39,8 +39,8 @@ const JoinSection = (props) => {
           <ul>
             <li> Information sessions:
               <ol>
-                <li>Tuesday January 25<sup>th</sup>, 2022 at 8PM <b>Location TBD</b> (<a href="https://berkeley.zoom.us/j/96134142264" target="_blank" rel='noopener noreferrer'>Zoom</a>)</li>
-                <li>Saturday January 29<sup>th</sup>, 2022 at 3PM <b>Location TBD</b> (<a href="https://berkeley.zoom.us/j/98298576268" target="_blank" rel='noopener noreferrer'>Zoom</a>)</li>
+                <li>Tuesday January 25<sup>th</sup>, 2022 at 8PM <b>Dwinelle 229</b> (<a href="https://berkeley.zoom.us/j/96134142264" target="_blank" rel='noopener noreferrer'>Zoom</a>)</li>
+                <li>Saturday January 29<sup>th</sup>, 2022 at 3PM <b>Virtual</b> (<a href="https://berkeley.zoom.us/j/98298576268" target="_blank" rel='noopener noreferrer'>Zoom</a>)</li>
               </ol>
             </li>
             <li>Applications Due: Wednesday February 2<sup>nd</sup> 11:59PM PST</li>

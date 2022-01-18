@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "eafe0b54aaea45bb7dafe5f322638627",
+    "revision": "be3800419aa798c6e981dca668c47f2a",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.84f31ead.chunk.css"
   },
   {
-    "revision": "5c3a295957a0a32c1fea",
+    "revision": "010ed7f1ff26ef45476e",
     "url": "/static/css/main.51cedc14.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.0e9c0399.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5c3a295957a0a32c1fea",
-    "url": "/static/js/main.1616127d.chunk.js"
+    "revision": "010ed7f1ff26ef45476e",
+    "url": "/static/js/main.d8ff69eb.chunk.js"
   },
   {
     "revision": "e6d4900135c5ede7e0f6",
@@ -388,7 +388,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/shreya.b685acc2.jpg"
   },
   {
-    "revision": "430cd85dd69c7f88493c3e82759d395a",
-    "url": "/static/media/spring2022recruitment.430cd85d.png"
+    "revision": "2185486731ec2672d3ce14fea3d33828",
+    "url": "/static/media/spring2022recruitment.21854867.png"
   }
 ]);
