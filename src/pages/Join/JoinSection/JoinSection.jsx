@@ -7,7 +7,7 @@ const JoinSection = (props) => {
   return (
     <section className="Description">
       <div className="description-top">
-        <h2 className="description-heading">Spring 2022 Recruitment</h2>
+        <h2 className="description-heading">Fall 2022 Recruitment</h2>
         <div className="description-mission" role="text">
         {/* <br /> */}
         </div>
@@ -15,7 +15,7 @@ const JoinSection = (props) => {
           <img
             className="description-image"
             src={image}
-            alt="PCS Spring 2022 Recruitment Schedule."
+            alt="PCS Fall 2022 Recruitment Schedule."
           />
         </div>
       </div>
@@ -24,14 +24,14 @@ const JoinSection = (props) => {
           Thank you for your interest in PCS@Berkeley!
           <br />
           <br/ >
-          We will be hosting In-person and virtual recruitment events, including two
-          information sessions regarding our club, upcoming projects, and
+          We will be hosting one In-person recruitment event, where
+          we'll talk about upcoming projects, and
           a walkthrough of our application process. You'll be able to meet
           our current leadership team and ask us any questions you may have.
           <br />
           <br />
           <p style={{textAlign: 'center', fontSize: 28}}>
-          📝 <a href="https://docs.google.com/forms/d/e/1FAIpQLSdg6PSTVPtl7Q1obaLn6CmjVhV_oiaQUM9vUqT1C3fbIFRLhw/viewform?usp=sf_link">Interest Form</a> 
+          📝 <a href="https://pcs-recruitment.carrd.co">Interest Form</a> 
           <br />
           <br />
         </p>
@@ -39,16 +39,15 @@ const JoinSection = (props) => {
           <ul>
             <li> Information sessions:
               <ol>
-                <li>Tuesday January 25<sup>th</sup>, 2022 at 8PM <b>Dwinelle 229</b> (<a href="https://berkeley.zoom.us/j/96134142264" target="_blank" rel='noopener noreferrer'>Zoom</a>)</li>
-                <li>Saturday January 29<sup>th</sup>, 2022 at 3PM <b>Virtual</b> (<a href="https://berkeley.zoom.us/j/98298576268" target="_blank" rel='noopener noreferrer'>Zoom</a>)</li>
+                <li>Wednesday August 31<sup>th</sup>, 2022 at 8PM <b>Dwinelle 130</b></li>
               </ol>
             </li>
-            <li>Applications Due: Wednesday February 2<sup>nd</sup> 11:59PM PST</li>
-            <li>Coffee Chats: Monday September 5<sup>th</sup> - 6<sup>th</sup> (Invite Only)</li>
+            <li>Applications Due: Friday September 2<sup>nd</sup> 11:59PM PST</li>
+            <li>Coffee Chats: Monday September 4<sup>th</sup> - 6<sup>th</sup> (Invite Only)</li>
           </ul>
           <p style={{textAlign: 'center', fontSize: 28}}>
           <br />
-          💻 <a href="https://docs.google.com/forms/d/e/1FAIpQLSePtJaMeFUOS6bBMZAVGBX4pcgF7JKZEpF-PEjZDuEEAM4cTg/viewform?usp=sf_link">Apply Here!</a> 
+          💻 <a href="https://pcs-recruitment.carrd.co">Apply Here!</a> 
           <br />
           <br />
         </p>
