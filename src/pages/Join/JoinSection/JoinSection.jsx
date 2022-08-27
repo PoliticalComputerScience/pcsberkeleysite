@@ -1,7 +1,7 @@
 // @flow
 import React from 'react';
 import './JoinSection.scss';
-import image from 'assets/home/spring2022recruitment.png';
+import image from 'assets/home/pcs fall 22 banner.png';
 
 const JoinSection = (props) => {
   return (

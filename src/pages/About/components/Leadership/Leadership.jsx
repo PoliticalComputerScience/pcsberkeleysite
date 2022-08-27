@@ -46,9 +46,9 @@ const Leadership = () => {
                 <img class="card-img-top img-fluid" src={Shreya} alt="Card image cap" />
                 <div class="card-block">
                     <p class="card-text"><small class="text-muted"> </small></p>
-                    <h4 class="card-title"><center>Shreya Puli</center></h4>
+                    <h4 class="card-title"><center>Ian Joffe</center></h4>
                     <p class="card-text"><center>President</center></p>
-                    <p class="card-text"><small class="text-muted">(she/her)</small></p>
+                    <p class="card-text"><small class="text-muted">(he/him)</small></p>
                 </div>
             </div>
         </div>
@@ -57,7 +57,7 @@ const Leadership = () => {
                 <img class="card-img-top img-fluid" src={Arunan} alt="Card image cap" />
                 <div class="card-block">
                     <p class="card-text"><small class="text-muted"> </small></p>
-                    <h4 class="card-title"><center>Arunan Thiviyanathan</center></h4>
+                    <h4 class="card-title"><center>Christopher Yun</center></h4>
                     <p class="card-text"><center>Internal VP</center></p>
                     <p class="card-text"><small class="text-muted">(he/him)</small></p>
                 </div>
@@ -68,9 +68,9 @@ const Leadership = () => {
                 <img class="card-img-top img-fluid" src={Allen} alt="Card image cap" />
                 <div class="card-block">
                     <p class="card-text"><small class="text-muted"> </small></p>
-                    <h4 class="card-title"><center>Allen Mao</center></h4>
+                    <h4 class="card-title"><center>Sophie Duryee</center></h4>
                     <p class="card-text"><center>Projects VP</center></p>
-                    <p class="card-text"><small class="text-muted">(he/him)</small></p>
+                    <p class="card-text"><small class="text-muted">(she/her)</small></p>
                 </div>
             </div>
         </div>
@@ -79,8 +79,8 @@ const Leadership = () => {
                 <img class="card-img-top img-fluid" src={Sara} alt="Card image cap" />
                 <div class="card-block">
                     <p class="card-text"><small class="text-muted"> </small></p>
-                    <h4 class="card-title"><center>Sara Takubo</center></h4>
-                    <p class="card-text"><center>Social Chair</center></p>
+                    <h4 class="card-title"><center>Kelly Ye</center></h4>
+                    <p class="card-text"><center>External VP</center></p>
                     <p class="card-text"><small class="text-muted">(she/her)</small></p>
                 </div>
             </div>
