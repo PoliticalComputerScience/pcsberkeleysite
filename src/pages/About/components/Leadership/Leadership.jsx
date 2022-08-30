@@ -12,7 +12,7 @@ import Col from "react-bootstrap/Col"
 
 
 import Ian from '../../../../assets/about/Headshots/ian.jpg';
-import Chris from '../../../../assets/about/Headshots/chris.jpg';
+import Chris from '../../../../assets/about/Headshots/christopher.jpg';
 import Kelly from '../../../../assets/about/Headshots/kelly.jpg';
 import Sophie from '../../../../assets/about/Headshots/sophie.jpg';
 
