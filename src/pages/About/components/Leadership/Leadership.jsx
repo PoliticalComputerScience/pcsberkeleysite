@@ -10,11 +10,16 @@ import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
 
-import Shreya from '../../../../assets/about/Headshots/shreya.jpg';
-import Arunan from '../../../../assets/about/Headshots/arunan.jpg';
-import Allen from '../../../../assets/about/Headshots/allen.jpg';
-import Sara from '../../../../assets/about/Headshots/sara.jpg';
- 
+
+import Ian from '../../../../assets/about/Headshots/ian.jpg';
+import Chris from '../../../../assets/about/Headshots/chris.jpg';
+import Kelly from '../../../../assets/about/Headshots/kelly.jpg';
+import Sophie from '../../../../assets/about/Headshots/sophie.jpg';
+
+// import Shreya from '../../../../assets/about/Headshots/shreya.jpg';
+// import Arunan from '../../../../assets/about/Headshots/arunan.jpg';
+// import Allen from '../../../../assets/about/Headshots/allen.jpg';
+// import Sara from '../../../../assets/about/Headshots/sara.jpg';
 // import Anav from '../../../../assets/about/Headshots/anav.jpg';
 // import Uzoma from '../../../../assets/about/Headshots/uzoma.jpg';
 // import Elyse from '../../../../assets/about/Headshots/elyse.jpg';
@@ -43,7 +48,7 @@ const Leadership = () => {
     <div class="row">
         <div class="col-md-6 col-lg-4 col-xl-3 py-2">
             <div class="card bg-light border-dark h-100">
-                <img class="card-img-top img-fluid" src={Shreya} alt="Card image cap" />
+                <img class="card-img-top img-fluid" src={Ian} alt="Card image cap" />
                 <div class="card-block">
                     <p class="card-text"><small class="text-muted"> </small></p>
                     <h4 class="card-title"><center>Ian Joffe</center></h4>
@@ -54,7 +59,7 @@ const Leadership = () => {
         </div>
         <div class="col-md-6 col-lg-4 col-xl-3 py-2">
             <div class="card bg-light border-dark h-100">
-                <img class="card-img-top img-fluid" src={Arunan} alt="Card image cap" />
+                <img class="card-img-top img-fluid" src={Chris} alt="Card image cap" />
                 <div class="card-block">
                     <p class="card-text"><small class="text-muted"> </small></p>
                     <h4 class="card-title"><center>Christopher Yun</center></h4>
@@ -65,7 +70,7 @@ const Leadership = () => {
         </div>
         <div class="col-md-6 col-lg-4 col-xl-3 py-2">
             <div class="card bg-light border-dark h-100">
-                <img class="card-img-top img-fluid" src={Allen} alt="Card image cap" />
+                <img class="card-img-top img-fluid" src={Sophie} alt="Card image cap" />
                 <div class="card-block">
                     <p class="card-text"><small class="text-muted"> </small></p>
                     <h4 class="card-title"><center>Sophie Duryee</center></h4>
@@ -76,7 +81,7 @@ const Leadership = () => {
         </div>
         <div class="col-md-6 col-lg-4 col-xl-3 py-2">
             <div class="card bg-light border-dark h-100">
-                <img class="card-img-top img-fluid" src={Sara} alt="Card image cap" />
+                <img class="card-img-top img-fluid" src={Kelly} alt="Card image cap" />
                 <div class="card-block">
                     <p class="card-text"><small class="text-muted"> </small></p>
                     <h4 class="card-title"><center>Kelly Ye</center></h4>

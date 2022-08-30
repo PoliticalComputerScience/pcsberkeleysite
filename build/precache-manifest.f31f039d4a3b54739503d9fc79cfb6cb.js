@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b6ef9fe972888100f29bab627d0ff652",
+    "revision": "e0c72f758f97817d09ef2c492a6c4754",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.84f31ead.chunk.css"
   },
   {
-    "revision": "de2e5db42af9c60f0f52",
+    "revision": "b44f49c883fd733808fa",
     "url": "/static/css/main.9bbca9f4.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.0e9c0399.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "de2e5db42af9c60f0f52",
-    "url": "/static/js/main.27dbe0ca.chunk.js"
+    "revision": "b44f49c883fd733808fa",
+    "url": "/static/js/main.e3fad0e4.chunk.js"
   },
   {
     "revision": "e6d4900135c5ede7e0f6",
@@ -212,6 +212,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/nunito-latin-900italic.ca56cb53.woff"
   },
   {
+    "revision": "aae576c46ba547748c61bf4cd5eb4079",
+    "url": "/static/media/pcs fall 22 banner.aae576c4.png"
+  },
+  {
     "revision": "6d7ecc2e6c89b47bf288b0bb08a754dc",
     "url": "/static/media/plantlol.6d7ecc2e.jpg"
   },
@@ -386,9 +390,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b685acc27bf23b506186b9c5a944c754",
     "url": "/static/media/shreya.b685acc2.jpg"
-  },
-  {
-    "revision": "53f87d88b660e1f6b9f82da23b3d37df",
-    "url": "/static/media/spring2022recruitment.53f87d88.png"
   }
 ]);
